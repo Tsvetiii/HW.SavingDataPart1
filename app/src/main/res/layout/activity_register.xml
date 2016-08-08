@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Username"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtRegUsername"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Password"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtRegPassword"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Confirm Password"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtRegConfirmation"/>
+
+    <Button
+        android:layout_width="128dp"
+        android:layout_height="64dp"
+        android:text="Register"
+        android:textSize="20sp"
+        android:id="@+id/btnRegisterUser"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="128dp"
+        android:layout_height="64dp"
+        android:text="Cancel"
+        android:textSize="20sp"
+        android:id="@+id/btnCancel"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
